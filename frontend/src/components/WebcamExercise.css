@@ -1,0 +1,43 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 1000px;
+    color: #000;
+  }
+  
+  .modal-content h2, .modal-content h4, .modal-content p {
+    color: #000;
+  }
+  
+  .modal-content canvas {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* WebcamExercise.css */
+.video-canvas {
+  position: absolute;
+  width: 100%;  /* Scale it to fit the container */
+  height: 100%;
+  object-fit: contain; /* Ensures that video fits within the canvas */
+}
+
+.container {
+  position: relative;
+  width: 640px;  /* Increase if you want a bigger area */
+  height: 960px;  /* Increase to capture the full body */
+}

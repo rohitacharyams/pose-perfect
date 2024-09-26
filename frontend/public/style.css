@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#exercise-section {
+    margin-bottom: 20px;
+}
+
+#exercise-gif {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#webcam {
+    display: none;
+}
+
+canvas {
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}

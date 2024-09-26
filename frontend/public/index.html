@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Feedback App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root"></div>
+
+    <!-- Canvas to draw user pose -->
+    <h2>Real-time User Pose</h2>
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="output" width="640" height="480"></canvas>
+
+    <!-- TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+    <!-- Mediapipe Pose Solution -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+    <script src="script.js"></script>
+</body>
+</html>
